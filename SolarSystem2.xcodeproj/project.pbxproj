@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1911A1312163E157002F2F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911A1302163E157002F2F82 /* AppDelegate.swift */; };
+		1911A1362163E157002F2F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1911A1342163E157002F2F82 /* Main.storyboard */; };
+		1911A13B2163E159002F2F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1911A1392163E159002F2F82 /* LaunchScreen.storyboard */; };
+		1911A1432163E2C5002F2F82 /* Assets copy.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1911A1422163E2C5002F2F82 /* Assets copy.xcassets */; };
+		1911A1452163E6EE002F2F82 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911A1442163E6EE002F2F82 /* PlanetController.swift */; };
+		1911A1492163E75D002F2F82 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911A1482163E75D002F2F82 /* Planet.swift */; };
+		1911A14D2163EDD2002F2F82 /* PlanetListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911A14C2163EDD2002F2F82 /* PlanetListTableViewController.swift */; };
+		1911A1512163EEE5002F2F82 /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911A1502163EEE5002F2F82 /* PlanetDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1911A12D2163E157002F2F82 /* SolarSystem2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1911A1302163E157002F2F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1911A1352163E157002F2F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1911A13A2163E159002F2F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1911A13C2163E159002F2F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1911A1422163E2C5002F2F82 /* Assets copy.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets copy.xcassets"; sourceTree = "<group>"; };
+		1911A1442163E6EE002F2F82 /* PlanetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
+		1911A1482163E75D002F2F82 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		1911A14C2163EDD2002F2F82 /* PlanetListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListTableViewController.swift; sourceTree = "<group>"; };
+		1911A1502163EEE5002F2F82 /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1911A12A2163E157002F2F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1911A1242163E157002F2F82 = {
+			isa = PBXGroup;
+			children = (
+				1911A12F2163E157002F2F82 /* SolarSystem2 */,
+				1911A14A2163E765002F2F82 /* (M)odel */,
+				1911A1462163E6F5002F2F82 /* (V)iew */,
+				1911A14B2163E81E002F2F82 /* (C)ontrollers */,
+				1911A1472163E706002F2F82 /* Resources */,
+				1911A12E2163E157002F2F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1911A12E2163E157002F2F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1911A12D2163E157002F2F82 /* SolarSystem2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1911A12F2163E157002F2F82 /* SolarSystem2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SolarSystem2;
+			sourceTree = "<group>";
+		};
+		1911A1462163E6F5002F2F82 /* (V)iew */ = {
+			isa = PBXGroup;
+			children = (
+				1911A1342163E157002F2F82 /* Main.storyboard */,
+				1911A1392163E159002F2F82 /* LaunchScreen.storyboard */,
+			);
+			path = "(V)iew";
+			sourceTree = "<group>";
+		};
+		1911A1472163E706002F2F82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1911A1302163E157002F2F82 /* AppDelegate.swift */,
+				1911A13C2163E159002F2F82 /* Info.plist */,
+				1911A1422163E2C5002F2F82 /* Assets copy.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1911A14A2163E765002F2F82 /* (M)odel */ = {
+			isa = PBXGroup;
+			children = (
+				1911A1482163E75D002F2F82 /* Planet.swift */,
+			);
+			path = "(M)odel";
+			sourceTree = "<group>";
+		};
+		1911A14B2163E81E002F2F82 /* (C)ontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				1911A14E2163EDDD002F2F82 /* ModelController */,
+				1911A14F2163EDF8002F2F82 /* ViewControllers */,
+			);
+			path = "(C)ontrollers";
+			sourceTree = "<group>";
+		};
+		1911A14E2163EDDD002F2F82 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				1911A1442163E6EE002F2F82 /* PlanetController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		1911A14F2163EDF8002F2F82 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1911A14C2163EDD2002F2F82 /* PlanetListTableViewController.swift */,
+				1911A1502163EEE5002F2F82 /* PlanetDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1911A12C2163E157002F2F82 /* SolarSystem2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1911A13F2163E159002F2F82 /* Build configuration list for PBXNativeTarget "SolarSystem2" */;
+			buildPhases = (
+				1911A1292163E157002F2F82 /* Sources */,
+				1911A12A2163E157002F2F82 /* Frameworks */,
+				1911A12B2163E157002F2F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarSystem2;
+			productName = SolarSystem2;
+			productReference = 1911A12D2163E157002F2F82 /* SolarSystem2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1911A1252163E157002F2F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Xavier ios dev";
+				TargetAttributes = {
+					1911A12C2163E157002F2F82 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1911A1282163E157002F2F82 /* Build configuration list for PBXProject "SolarSystem2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1911A1242163E157002F2F82;
+			productRefGroup = 1911A12E2163E157002F2F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1911A12C2163E157002F2F82 /* SolarSystem2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1911A12B2163E157002F2F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1911A13B2163E159002F2F82 /* LaunchScreen.storyboard in Resources */,
+				1911A1362163E157002F2F82 /* Main.storyboard in Resources */,
+				1911A1432163E2C5002F2F82 /* Assets copy.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1911A1292163E157002F2F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1911A1492163E75D002F2F82 /* Planet.swift in Sources */,
+				1911A14D2163EDD2002F2F82 /* PlanetListTableViewController.swift in Sources */,
+				1911A1312163E157002F2F82 /* AppDelegate.swift in Sources */,
+				1911A1512163EEE5002F2F82 /* PlanetDetailViewController.swift in Sources */,
+				1911A1452163E6EE002F2F82 /* PlanetController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1911A1342163E157002F2F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1911A1352163E157002F2F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1911A1392163E159002F2F82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1911A13A2163E159002F2F82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1911A13D2163E159002F2F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1911A13E2163E159002F2F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1911A1402163E159002F2F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57CQ48CJGQ;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COM.Xavierwatts.SolarSystem2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1911A1412163E159002F2F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57CQ48CJGQ;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COM.Xavierwatts.SolarSystem2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1911A1282163E157002F2F82 /* Build configuration list for PBXProject "SolarSystem2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1911A13D2163E159002F2F82 /* Debug */,
+				1911A13E2163E159002F2F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1911A13F2163E159002F2F82 /* Build configuration list for PBXNativeTarget "SolarSystem2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1911A1402163E159002F2F82 /* Debug */,
+				1911A1412163E159002F2F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1911A1252163E157002F2F82 /* Project object */;
+}
